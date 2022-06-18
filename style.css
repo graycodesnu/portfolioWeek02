@@ -59,6 +59,12 @@ body {
     background-color: #D6D6C2;
 }
 
+.navbar a {
+    text-decoration: none;
+    background-color: #D6D6C2;
+    color: #0B3948;
+}
+
 /*divider*/
 
 hr {
