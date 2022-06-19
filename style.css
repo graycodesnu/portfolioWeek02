@@ -103,7 +103,7 @@ hr {
     padding-right: 25%;
     padding-top: 20px;
 }
-
+/* Trying to move text alongside avatar. These may be temporary ids/classes. */
 .avatar {
     height: 300px;
     width: 300px;
