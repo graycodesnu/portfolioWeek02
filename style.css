@@ -57,6 +57,8 @@ body {
     list-style-type: none;
     padding: 10px 20px;
     background-color: #D6D6C2;
+    font-size: 35px;
+
 }
 
 .navbar a {
@@ -66,6 +68,15 @@ body {
 }
 
 /*divider*/
+
+.nav-divider{
+    height: 2px;
+    width: 100%;
+    border-width: 10;
+    color: #D76A03;
+    background-color: #D76A03;
+    margin: 0;
+}
 
 hr {
     height: 2px;
@@ -79,9 +90,18 @@ hr {
 /*Subsection text*/
 
 .subsection {
-    font-size: 30px;
-    color: #0C8346;
+    font-size: 40px;
+    color: #BF3100;
+}
 
+/* About Section */
+
+#about-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 25%;
+    padding-top: 20px;
 }
 
 .avatar {
@@ -89,4 +109,18 @@ hr {
     width: 300px;
     border-radius: 50%;
     margin: 10px;
+    display: inline-block;
+}
+
+/* .about-box { 
+    display: flex;
+    
+}
+*/
+----------------------------------
+
+#about-blurb {
+    display: inline-block;
+    ;
+
 }
