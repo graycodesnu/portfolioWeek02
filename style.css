@@ -68,11 +68,11 @@ body {
 /*divider*/
 
 hr {
-    height: 20px;
+    height: 2px;
     width: 50%;
     border-width: 10;
-    color: red;
-    background-color: red;
+    color: #D76A03;
+    background-color: #D76A03;
     margin: 0 auto;
 }
 
