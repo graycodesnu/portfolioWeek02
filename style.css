@@ -104,6 +104,16 @@ hr {
     padding-top: 20px;
 }
 /* Trying to move text alongside avatar. These may be temporary ids/classes. */
+
+.about-box { 
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .avatar {
     height: 300px;
     width: 300px;
@@ -112,15 +122,6 @@ hr {
     display: inline-block;
 }
 
-/* .about-box { 
+.about-text {
     display: flex;
-    
-}
-*/
-----------------------------------
-
-#about-blurb {
-    display: inline-block;
-    ;
-
 }
