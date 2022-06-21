@@ -94,6 +94,10 @@ hr {
     color: #BF3100;
 }
 
+#projects-about{
+    margin: 1%;
+}
+
 /* About Section */
 
 #about-sub {
@@ -103,8 +107,8 @@ hr {
     padding-right: 25%;
     padding-top: 20px;
 }
-/* Trying to move text alongside avatar. These may be temporary ids/classes. */
 
+/* Lets elements fall in-line instead of listed below each other. */
 .about-box { 
     display: flex;
 	flex-flow: row wrap;
@@ -118,10 +122,62 @@ hr {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 1%;
     display: inline-block;
 }
 
 .about-text {
     display: flex;
+}
+/* project images grid */
+
+.image-grid {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap: 15px;
+}
+
+.refactor {
+    width: 100;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.coming-soon-1 {
+    width: 100;
+    height: 220px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.coming-soon-2 {
+    width: 100;
+    height: 220px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/* Contact */
+.contact-info {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
 }
